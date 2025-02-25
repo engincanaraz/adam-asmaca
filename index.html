@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Modern ve eğlenceli bir Adam Asmaca oyunu. Kelime tahmin etme becerilerinizi test edin!" />
+    <meta name="keywords" content="adam asmaca, kelime oyunu, javascript oyun, web geliştirme, interaktif oyun" />
+    <meta name="author" content="Engin Can Araz" />
+    
+    <!-- Sosyal Medya Meta Etiketleri -->
+    <meta property="og:title" content="Modern Adam Asmaca Oyunu" />
+    <meta property="og:description" content="Responsive tasarımlı, modern ve eğlenceli bir Adam Asmaca oyunu. Kelime tahmin etme becerilerinizi test edin!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://via.placeholder.com/1200x630" />
+    <meta property="og:url" content="https://your-website.com/adam-asmaca" />
+    
+    <!-- Twitter Meta Etiketleri -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Modern Adam Asmaca Oyunu" />
+    <meta name="twitter:description" content="Responsive tasarımlı, modern ve eğlenceli bir Adam Asmaca oyunu." />
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630" />
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Modern Adam Asmaca Oyunu | Kelime Tahmin Oyunu</title>
+  </head>
+  <body>
+    <h1>Adam Asmaca</h1>
+    <p>Gizlenen kelimeyi bulmak için harfleri tahmin et</p>
+
+    <div class="container">
+      <svg height="250" width="250" class="grafik">
+        <!-- sehpa -->
+        <line x1="50" y1="20" x2="130" y2="20" />
+        <line x1="130" y1="20" x2="130" y2="50" />
+        <line x1="50" y1="20" x2="50" y2="250" />
+        <line x1="10" y1="250" x2="90" y2="250" />
+
+        <!-- kafa -->
+        <circle cx="130" cy="70" r="20" class="item" data-part="1" />
+
+        <!-- gövde -->
+        <line x1="130" y1="90" x2="130" y2="170" class="item" data-part="2" />
+
+        <!-- kollar  -->
+        <line x1="130" y1="120" x2="100" y2="150" class="item" data-part="3" />
+        <line x1="130" y1="120" x2="160" y2="150" class="item" data-part="4" />
+
+        <!-- bacaklar -->
+        <line x1="130" y1="170" x2="100" y2="200" class="item" data-part="5" />
+        <line x1="130" y1="170" x2="160" y2="200" class="item" data-part="6" />
+      </svg>
+
+      <div id="wrong-letters">
+        <h3>Hatalı Harfler</h3>
+        <span>A,B,C</span>
+      </div>
+
+      <div class="word">
+        <div class="letter">A</div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+      </div>
+    </div>
+    
+    <footer>
+      <p class="footer-text">Geliştirici: <a href="https://linkedin.com/in/engincanaraz" target="_blank" rel="noopener">Engin Can Araz</a> | &copy; 2025 </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
