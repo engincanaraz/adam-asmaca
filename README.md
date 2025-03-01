@@ -68,9 +68,6 @@ Proje üç ana dosyadan oluşmaktadır:
 - [ ] Çok oyunculu mod
 - [ ] Ses efektleri ve müzik
 
-## 📄 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
 
 ## 👨‍💻 Geliştirici
 
