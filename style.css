@@ -316,121 +316,294 @@ footer {
 }
 
 /* Mobil için responsive tasarım */
-@media (max-width: 768px) {
- body {
-   padding-top: 1rem;
- }
- 
- .container {
-   width: 95%;
-   padding: 1.5rem 1rem;
-   min-height: 450px;
- }
- 
- h1 {
-   font-size: 2.8rem;
-   margin: 15px 0;
- }
- 
- p {
-   font-size: 1.2rem;
-   margin-bottom: 1rem;
- }
- 
- .letter {
-   width: 32px;
-   height: 42px;
-   font-size: 1.6rem;
-   gap: 0.4rem;
- }
- 
- #wrong-letters {
-   position: relative;
-   top: 0;
-   right: 0;
-   margin: 1rem auto;
-   width: fit-content;
- }
- 
- .grafik {
-   width: 200px;
-   height: 200px;
- }
- 
- .word {
-   bottom: 1.5rem;
-   gap: 0.5rem;
- }
- 
- .footer-text {
-   font-size: 0.9rem;
-   padding: 0.4rem 0.8rem;
- }
- 
- .kazandin, .kaybettin {
-   font-size: 2.5rem;
- }
- 
- .sonuc-mesaji {
-   font-size: 1.2rem;
- }
- 
- .tekrar-oyna {
-   padding: 10px 25px;
-   font-size: 1.1rem;
- }
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 1rem;
+  }
+
+  .container {
+    padding: 15px;
+    margin: 10px;
+    width: 95%;
+    min-height: auto;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+  }
+
+  .word {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .letter {
+    width: 30px;
+    height: 35px;
+    font-size: 1.3rem;
+    margin: 0 2px;
+  }
+
+  #wrong-letters {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 15px auto;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .items-container {
+    width: 200px;
+    height: 250px;
+    margin: 1rem auto;
+  }
+
+  .grafik {
+    width: 180px;
+    height: 220px;
+  }
+
+  #ipucu-alani {
+    padding: 12px;
+    margin: 15px auto;
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .kazandin, .kaybettin {
+    font-size: 1.8rem;
+  }
+
+  .sonuc-mesaji {
+    font-size: 1.1rem;
+  }
+
+  .ipucu-sonuc {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  .tekrar-oyna {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 15px;
+  }
 }
 
-/* Küçük mobil cihazlar için ek düzenlemeler */
-@media (max-width: 480px) {
- .container {
-   padding: 1rem;
-   min-height: 400px;
- }
- 
- h1 {
-   font-size: 2.2rem;
-   margin: 10px 0;
- }
- 
- p {
-   font-size: 1rem;
-   padding: 0.8rem;
- }
- 
- .letter {
-   width: 28px;
-   height: 38px;
-   font-size: 1.4rem;
-   gap: 0.3rem;
- }
- 
- .grafik {
-   width: 180px;
-   height: 180px;
-   margin: 0.5rem auto;
- }
- 
- .word {
-   bottom: 1rem;
- }
- 
- .footer-text {
-   font-size: 0.8rem;
-   padding: 0.3rem 0.6rem;
- }
- 
- .kazandin, .kaybettin {
-   font-size: 2rem;
- }
- 
- .sonuc-mesaji {
-   font-size: 1rem;
- }
- 
- .tekrar-oyna {
-   padding: 8px 20px;
-   font-size: 1rem;
- }
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+
+  .word {
+    margin: 15px 0;
+  }
+
+  .letter {
+    width: 25px;
+    height: 30px;
+    font-size: 1.1rem;
+  }
+
+  .items-container {
+    width: 160px;
+    height: 200px;
+  }
+
+  .grafik {
+    width: 150px;
+    height: 190px;
+  }
+
+  #ipucu-alani {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+
+  .kazandin, .kaybettin {
+    font-size: 1.5rem;
+  }
+
+  .sonuc-mesaji {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .letter {
+    width: 22px;
+    height: 28px;
+    font-size: 1rem;
+  }
+
+  .items-container {
+    width: 140px;
+    height: 180px;
+  }
+
+  .grafik {
+    width: 130px;
+    height: 170px;
+  }
+
+  #ipucu-alani {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  body {
+    padding-top: 0.5rem;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    min-height: auto;
+  }
+
+  .items-container {
+    grid-column: 1;
+    margin: 0;
+  }
+
+  .word {
+    grid-column: 2;
+    align-self: center;
+    margin: 0;
+  }
+
+  #wrong-letters {
+    position: relative;
+    top: auto;
+    right: auto;
+    grid-column: 2;
+    margin: 10px auto;
+  }
+
+  #ipucu-alani {
+    grid-column: 1 / -1;
+    margin: 10px auto;
+  }
+}
+
+#ipucu-alani {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0 1px;
+  border-radius: 10px;
+  margin: 1px;
+  max-width: 90%;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.5s ease;
+}
+
+#ipucu-alani:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#ipucu-alani p {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+#ipucu-text {
+  color: #f1c40f;
+  font-weight: 500;
+  margin-left: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ipucu-sonuc {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+/* Mobil için responsive tasarım */
+@media (max-width: 768px) {
+  #ipucu-alani {
+    padding: 10px 15px;
+    margin: 15px auto;
+  }
+
+  #ipucu-alani p {
+    font-size: 1rem;
+  }
+
+  .ipucu-sonuc {
+    font-size: 1rem;
+  }
+}
+
+#mobil-input {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobil cihazlar için container'a tıklanabilirlik ekliyorum */
+@media (max-width: 768px) {
+  .container {
+    cursor: text;
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
