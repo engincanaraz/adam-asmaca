@@ -5,6 +5,8 @@
 
 Bu proje, klasik "Adam Asmaca" oyununun modern ve interaktif bir web uygulaması versiyonudur. Tamamen responsive tasarıma sahip olup, masaüstü, tablet ve mobil cihazlarda sorunsuz çalışmaktadır. Oyun, kullanıcı dostu arayüzü ve görsel efektleriyle dikkat çekmektedir.
 
+## 🌐 Projeyi deneyimlemek için canlı demo : https://engincan-adam-asmaca.netlify.app/
+
 ## 🚀 Özellikler
 
 - **Modern Tasarım**: Glassmorphism ve gradient arka plan ile çağdaş bir görünüm
