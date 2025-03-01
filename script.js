@@ -1,83 +1,103 @@
 const kelimeler = [
   {
-    kelime: 'javascript',
-    ipucu: 'Web geliştirmede kullanılan popüler bir programlama dili'
+    kelime: 'html',
+    ipucu: 'Web sayfalarının iskeletini oluşturan işaretleme dili'
   },
   {
-    kelime: 'programlama',
-    ipucu: 'Bilgisayara ne yapması gerektiğini söyleme sanatı'
+    kelime: 'css',
+    ipucu: 'Web sayfalarını stilize etmek için kullanılan dil'
   },
   {
-    kelime: 'geliştirici',
-    ipucu: 'Yazılım üreten kişi'
+    kelime: 'flexbox',
+    ipucu: 'CSS\'te esnek kutu düzeni modeli'
   },
   {
-    kelime: 'tasarım',
-    ipucu: 'Bir ürünün görsel planlaması'
+    kelime: 'grid',
+    ipucu: 'CSS\'te iki boyutlu sayfa düzeni sistemi'
+  },
+  {
+    kelime: 'react',
+    ipucu: 'Facebook tarafından geliştirilen JavaScript kütüphanesi'
+  },
+  {
+    kelime: 'vue',
+    ipucu: 'Kullanımı kolay, performanslı JavaScript framework\'ü'
+  },
+  {
+    kelime: 'angular',
+    ipucu: 'Google tarafından geliştirilen TypeScript temelli framework'
+  },
+  {
+    kelime: 'bootstrap',
+    ipucu: 'Popüler CSS framework\'ü'
+  },
+  {
+    kelime: 'tailwind',
+    ipucu: 'Utility-first CSS framework\'ü'
+  },
+  {
+    kelime: 'webpack',
+    ipucu: 'Modern JavaScript uygulamaları için statik modül paketleyici'
+  },
+  {
+    kelime: 'dom',
+    ipucu: 'Belge Nesne Modeli, web sayfasının programatik temsili'
+  },
+  {
+    kelime: 'ajax',
+    ipucu: 'Asenkron JavaScript ve XML, sayfayı yenilemeden veri alma tekniği'
+  },
+  {
+    kelime: 'api',
+    ipucu: 'Uygulama Programlama Arayüzü, yazılımların birbiriyle iletişim kurma yolu'
+  },
+  {
+    kelime: 'sass',
+    ipucu: 'CSS önişlemcisi, CSS\'e değişkenler ve fonksiyonlar ekler'
+  },
+  {
+    kelime: 'less',
+    ipucu: 'CSS önişlemci dili'
+  },
+  {
+    kelime: 'typescript',
+    ipucu: 'JavaScript\'e tip güvenliği ekleyen dil'
+  },
+  {
+    kelime: 'animasyon',
+    ipucu: 'Web sayfalarındaki hareketli öğeler'
   },
   {
     kelime: 'responsive',
-    ipucu: 'Farklı ekran boyutlarına uyum sağlayan'
+    ipucu: 'Farklı ekran boyutlarına uyum sağlayan tasarım'
   },
   {
-    kelime: 'algoritma',
-    ipucu: 'Bir problemi çözmek için izlenen yol'
+    kelime: 'svg',
+    ipucu: 'Ölçeklenebilir Vektör Grafiği, web\'de kullanılan grafik formatı'
   },
   {
-    kelime: 'framework',
-    ipucu: 'Yazılım geliştirmeyi kolaylaştıran yapı'
+    kelime: 'canvas',
+    ipucu: 'HTML5 öğesi, JavaScript ile çizim yapılabilen alan'
   },
   {
-    kelime: 'veritabanı',
-    ipucu: 'Bilgilerin saklandığı dijital ortam'
+    kelime: 'babel',
+    ipucu: 'JavaScript derleyicisi, modern kodu eski tarayıcılara uyumlu hale getirir'
   },
   {
-    kelime: 'uygulama',
-    ipucu: 'Belirli bir amacı olan yazılım'
+    kelime: 'npm',
+    ipucu: 'Node Paket Yöneticisi, JavaScript kütüphanelerini yönetme aracı'
   },
   {
-    kelime: 'yazılım',
-    ipucu: 'Bilgisayar programlarının genel adı'
+    kelime: 'git',
+    ipucu: 'Dağıtık versiyon kontrol sistemi'
   },
   {
-    kelime: 'teknoloji',
-    ipucu: 'Bilim ve mühendisliğin pratik kullanımı'
+    kelime: 'mobil',
+    ipucu: 'Taşınabilir cihazlar için tasarım yaklaşımı'
   },
   {
-    kelime: 'bilgisayar',
-    ipucu: 'Veri işleyen elektronik cihaz'
-  },
-  {
-    kelime: 'internet',
-    ipucu: 'Dünya çapında bilgisayar ağı'
-  },
-  {
-    kelime: 'linkedin',
-    ipucu: 'Profesyonel iş ağı platformu'
-  },
-  {
-    kelime: 'profesyonel',
-    ipucu: 'İşini en iyi şekilde yapan kişi'
-  },
-  {
-    kelime: 'şifreleme',
-    ipucu: 'Veriyi güvenli hale getirme işlemi'
-  },
-  {
-    kelime: 'güvenlik',
-    ipucu: 'Sistemleri koruma yöntemleri'
-  },
-  {
-    kelime: 'öğrenme',
-    ipucu: 'Yeni bilgiler edinme süreci'
-  },
-  {
-    kelime: 'çözüm',
-    ipucu: 'Bir sorunu giderme yolu'
-  },
-  {
-    kelime: 'işlemci',
-    ipucu: 'Bilgisayarın beyni'
+    kelime: 'tween',
+    ipucu: 'İki değer arasında yumuşak geçiş sağlayan animasyon tekniği'
   }
 ];
 
