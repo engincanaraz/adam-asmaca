@@ -1,6 +1,5 @@
-# 🎮 Modern Adam Asmaca Oyunu
-
-![Adam Asmaca Oyunu](https://via.placeholder.com/1200x630)
+# 🎮  Adam Asmaca Oyunu
+<img width="1407" alt="Ekran Resmi 2025-03-01 06 20 48" src="https://github.com/user-attachments/assets/1c62cd39-7ccd-46fc-ab1d-931eaae12405" />
 
 ## 📝 Proje Hakkında
 
@@ -23,17 +22,6 @@ Bu proje, klasik "Adam Asmaca" oyununun modern ve interaktif bir web uygulaması
 - **Responsive Tasarım**: Mobil öncelikli yaklaşım
 - **Web Animasyonları**: CSS keyframes ve JavaScript animasyonları
 
-## 📱 Ekran Görüntüleri
-
-### Masaüstü Görünümü
-![Masaüstü Görünümü](https://via.placeholder.com/800x450)
-
-### Tablet Görünümü
-![Tablet Görünümü](https://via.placeholder.com/600x800)
-
-### Mobil Görünümü
-![Mobil Görünümü](https://via.placeholder.com/375x667)
-
 ## 🎯 Nasıl Oynanır?
 
 1. Oyun başladığında rastgele bir kelime seçilir
@@ -48,7 +36,7 @@ Bu proje, klasik "Adam Asmaca" oyununun modern ve interaktif bir web uygulaması
 
 1. Projeyi bilgisayarınıza klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/adam-asmaca.git
+   git clone https://github.com/engincanaraz/adam-asmaca.git
    ```
 
 2. Proje dizinine gidin:
@@ -89,7 +77,7 @@ Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
 Engin Can Araz
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/engincanaraz)
 
 ---
 
